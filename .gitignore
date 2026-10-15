@@ -1,0 +1,13 @@
+node_modules
+.next
+dist
+out
+coverage
+.mastra
+.env
+.env.local
+*.tsbuildinfo
+data/*
+!data/.gitkeep
+.DS_Store
+.playwright-mcp

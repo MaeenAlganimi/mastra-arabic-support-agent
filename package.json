@@ -1,0 +1,43 @@
+{
+  "name": "mastra-arabic-support-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilingual Arabic/English customer-support agent template built with Mastra.",
+  "type": "module",
+  "author": "Maeen Alganimi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaeenAlganimi/mastra-arabic-support-agent.git"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "@mastra/core": "^1.77.0",
+    "@mastra/evals": "^1.10.7",
+    "@mastra/libsql": "^1.26.1",
+    "@mastra/memory": "^1.37.1",
+    "@mastra/pg": "^1.31.1",
+    "@mastra/rag": "^2.6.7",
+    "next": "^16.4.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
