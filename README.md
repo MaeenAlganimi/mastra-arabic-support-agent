@@ -120,6 +120,10 @@ npm run typecheck
 
 GitHub Actions runs typecheck, tests, and the production build on Node 22.
 
+## AI-assisted development
+
+This project was built with AI-assisted development: the code, tests and docs were drafted with an AI assistant and then checked by running the project's tests and build. It has not had an independent security audit, and nothing here is a claim about real users or production traffic.
+
 ## License
 
 MIT. Copyright (c) 2026 Maeen Alganimi.
